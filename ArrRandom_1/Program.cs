@@ -31,6 +31,7 @@ namespace ArrRandom_1
             Console.WriteLine();
             Console.WriteLine("Максимальный элемент = {0}", max);
             Console.WriteLine("Минимальный элемент = {0}", min);
+            Console.WriteLine("Сумма максимального и минимального элементов = {0}", min+max);
             Console.ReadKey();
         }
     }
