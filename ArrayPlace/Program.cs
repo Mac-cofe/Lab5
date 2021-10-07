@@ -22,7 +22,7 @@ namespace ArrayPlace
             for (int i = 0; i < k; i++)
             {
                 Console.Write("{0,3} ", array[i]);
-                if (i % 2 == 1 && array[i] % 2 == 1 && array[i] % 2 > 0) //так как индексы нумеруются от 0, то проверяем i % 2 == 1
+                if (i % 2 == 0 && array[i] % 2 == 1 && array[i] > 0) //так как индексы нумеруются от 0, то проверяем i % 2 == 1
                     count++;
             }
             Console.WriteLine();
